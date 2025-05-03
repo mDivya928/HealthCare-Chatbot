@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>UUMediBot</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div id="chat-box"></div>
+
+  <div id="input-area">
+    <input id="user-input" type="text" placeholder="Type a message…" autocomplete="off">
+    <button id="send-btn">Send</button>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

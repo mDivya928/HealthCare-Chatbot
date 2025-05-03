@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good day", "Howdy", "How are you?"
+      ],
+      "responses": [
+        "Hello there! How can I assist?",
+        "Hi! What can I do for you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Talk to you soon"],
+      "responses": ["See you!", "Goodbye! Come back soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Much appreciated", "Thanks a lot"],
+      "responses": ["You’re welcome!", "Happy to help!"]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": ["*"],
+      "responses": ["Sorry, I didn’t get that. Could you rephrase?"]
+    },
+    {
+      "tag": "fetch_patient_details",
+      "patterns": [
+        "Get patient {id}",
+        "Show patient {id} details",
+        "Fetch patient {id}" 
+      ],
+      "responses": []
+    },
+    {
+      "tag": "fetch_medication",
+      "patterns": [
+        "What medicine is patient {id} taking?",
+        "Show medication for patient {id}",
+        "Drugs prescribed to patient {id}"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "fetch_medical_condition",
+      "patterns": [
+        "What is patient {id} medical condition?",
+        "Show condition for patient {id}"       
+      ],
+      "responses": []
+    },
+    {
+      "tag": "fetch_billing_info",
+      "patterns": [
+        "Show bill for patient {id}",
+        "What is the billing amount for patient {id}?",
+        "Fetch billing info for patient {id}"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "fetch_test_results",
+      "patterns": [
+        "Show test results for patient {id}",
+        "What are the test results for patient {id}?"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "fetch_insurance_info",
+      "patterns": [
+        "What is the insurance provider for patient {id}?",
+        "Show insurance for patient {id}"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "fetch_admission_info",
+      "patterns": [
+        "When was patient {id} admitted?",
+        "Show admission date for patient {id}"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "fetch_discharge_info",
+      "patterns": [
+        "When was patient {id} discharged?",
+        "Show discharge date for patient {id}"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "fetch_blood_pressure",
+      "patterns": [
+        "What is patient {id} blood pressure?",
+        "Show blood pressure for patient {id}"
+      ],
+      "responses": []
+    }
+  ]
+}
