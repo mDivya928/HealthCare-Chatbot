@@ -43,14 +43,10 @@ Key technologies:
 
 ```bash
 git clone https://github.com/<your-username>/UUMediBot.git](https://github.com/mDivya928/HealthCare-Chatbot.git)
-cd UUMediBot
+cd HealthCare-Chatbot
 ```
 
-### 2. Add your chatbot screenshot
-
-Place your screenshot at `assets/chatbot_screenshot.png`. If you named it differently, update the path in this README.
-
-### 3. Create & activate virtual environment
+### 2. Create & activate virtual environment
 
 ```bash
 python3 -m venv venv
@@ -58,13 +54,13 @@ source venv/bin/activate   # macOS/Linux
 venv\Scripts\Activate.ps1 # Windows PowerShell
 ```
 
-### 4. Install dependencies
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5. Prepare MongoDB
+### 4. Prepare MongoDB
 
 1. **Start** MongoDB (Homebrew or Docker).
 2. **Import** your CSV data:
@@ -76,13 +72,13 @@ pip install -r requirements.txt
                --file data/patient_details.csv
    ```
 
-### 6. Train the model
+### 5. Train the model
 
 ```bash
 python3 train_model.py
 ```
 
-### 7. Run the server
+### 6. Run the server
 
 ```bash
 export FLASK_APP=app
