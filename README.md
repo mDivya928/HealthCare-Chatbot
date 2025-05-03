@@ -2,7 +2,7 @@
 
 > A conversational healthcare chatbot for fetching patient information using AI and MongoDB.
 
-![Chatbot Screenshot](assets/chatbot_screenshot.png)
+![Chatbot Screenshot](assets/chatbot_convo.png)
 
 ---
 
