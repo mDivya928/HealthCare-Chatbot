@@ -42,7 +42,7 @@ Key technologies:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/UUMediBot.git
+git clone https://github.com/<your-username>/UUMediBot.git](https://github.com/mDivya928/HealthCare-Chatbot.git)
 cd UUMediBot
 ```
 
